@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <div>
+        <h1>React-ReduxToolkit-MultiSliceApp</h1>
         <Provider store={store}>
           <CounterComponent />
           <ThemeToggle />
