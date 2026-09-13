@@ -7,7 +7,7 @@ import ThemeToggle from "./features/theme/components/ThemeToggle";
 function App() {
   return (
     <>
-      <div>
+      <div className="min-h-screen bg-gray-800 flex flex-col justify-center">
         <h1>React-ReduxToolkit-MultiSliceApp</h1>
         <Provider store={store}>
           <CounterComponent />
